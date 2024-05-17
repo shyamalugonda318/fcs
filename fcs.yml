@@ -4,7 +4,7 @@
    tasks:
    - name: create files
      file:
-       path: "/tmp/abc{1..5}"
+       path: "/tmp/karma.txt"
        state: touch
        mode: 0777
 ...
