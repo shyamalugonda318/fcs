@@ -1,6 +1,7 @@
 ---
  - name: creation of multiple files
    hosts: TG
+   become: yes
    tasks:
    - name: create files
      file:
