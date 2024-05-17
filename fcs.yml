@@ -1,6 +1,6 @@
 ---
  - name: creation of multiple files
-   hosts: TG
+   hosts: localhost
    tasks:
    - name: create files
      file:
