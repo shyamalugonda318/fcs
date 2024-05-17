@@ -1,10 +1,10 @@
 ---
  - name: creation of multiple files
-   hosts: localhost
+   hosts: TG
    tasks:
    - name: create files
      file:
-       path: "/tmp/xyz{1..5}"
+       path: "/tmp/abc{1..5}"
        state: touch
        mode: 0777
 ...
