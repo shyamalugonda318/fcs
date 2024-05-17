@@ -4,9 +4,7 @@
    tasks:
    - name: create files
      file:
-       path: /tmp/xyz{1..5}
+       path: "/tmp/xyz{1..5}"
        state: touch
-       group: master
-       owner: master
        mode: 0777
 ...
